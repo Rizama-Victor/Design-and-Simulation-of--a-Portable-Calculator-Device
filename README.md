@@ -22,6 +22,11 @@ This repository contains the implementation of the project _"Design-and-Simulati
 
 ## 🌀 Working Principle
 
+When the simulation begins, the LCD initializes and displays the prompt **"Enter +,-,/ OR *"**, indicating that the system is ready for input. The user enters the desired arithmetic operator through the Serial Monitor. Next, the LCD prompts **"Enter first num:"**, and the user types the first number, which the Arduino reads and stores. The LCD then displays **"Enter second num:"**, and the second number is similarly read and stored by the Arduino.  
+
+Once both numbers and the operator are provided, the Arduino processes the input according to the arithmetic operation chosen: addition, subtraction, multiplication, or division. The result of the calculation is then displayed on the LCD as **"Answer is [result]"**, while the second line prompts the user with **"Up for Another?"**, allowing for a new calculation after a short delay. The LCD clears after each calculation, enabling the process to repeat for subsequent operations. This setup allows the calculator device to perform arithmetic operations interactively and display results in real time.
+
+
 
 ### 📷 Circuit Diagram
 
