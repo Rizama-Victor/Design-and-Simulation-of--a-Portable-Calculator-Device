@@ -1,4 +1,4 @@
-# 🧮 Design and Simulation of Portable Calculator Device
+# 🧮 Design and Simulation of a Portable Calculator Device
 This repository contains the implementation of the project _"Design-and-Simulation-of-Portable-Calculator-Device"_ at the Department of Mechatronics Engineering (DOME), Federal University of Technology, Minna.
 
 ---
